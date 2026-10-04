@@ -1,0 +1,297 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.header {
+  background-color: rgb(230, 204, 178);
+}
+.logo img {
+  width: 140px;
+  height: 80px;
+}
+.bg {
+  background-color: rgb(237, 224, 212);
+}
+.btn-call {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(127, 85, 57);
+  color: rgb(230, 204, 178);
+  border-radius: 7px;
+  margin: 5px;
+}
+.btn-whatsapp {
+  width: 140px;
+  height: 30px;
+  background-color: rgb(127, 85, 57);
+  color: rgb(230, 204, 178);
+  border-radius: 7px;
+  margin: 5px;
+}
+.btn-call i,
+.btn-whatsapp i {
+  font-size: 18px;
+  display: inline-block !important;
+  visibility: visible !important;
+  color: rgb(230, 204, 178);
+  margin-right: 5px;
+}
+.banner-content h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.banner-content h1 {
+  color: rgb(127, 85, 57);
+}
+.banner-content p {
+  font-size: 22px;
+}
+.banner-content ul {
+  list-style: none;
+}
+.banner-content ul li {
+  font-size: 22px;
+}
+.banner-content ul li i {
+  color: rgb(127, 85, 57);
+}
+.banner-content-btn button {
+  width: 50%;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+.banner-content-btn a {
+  width: 50%;
+  display: block;
+}
+.banner-content-btn a button {
+  width: 100%;
+}
+.banner-content-btn button:first-child {
+  color: white;
+  background: linear-gradient(to right, rgb(230, 204, 178), rgb(127, 85, 57));
+}
+.banner-content-btn button:last-child {
+  color: white;
+  background: linear-gradient(to right, rgb(230, 204, 178), rgb(127, 85, 57));
+}
+.image img {
+  height: auto;
+  width: 100%;
+  border-radius: 7px;
+}
+.banner-form {
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 25px;
+}
+.banner-form h3 {
+  color: rgb(127, 85, 57);
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.banner-form button {
+  width: 100%;
+  padding: 10px 0px;
+  background: linear-gradient(to right, rgb(230, 204, 178), rgb(127, 85, 57));
+  border: none;
+  color: white;
+}
+.left {
+  flex: 1;
+}
+.left iframe {
+  width: 100%;
+  height: 480px;
+  border: 0;
+  margin-top: 10px;
+}
+.counterSection h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(127, 85, 57);
+}
+.ON {
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.modal-body h4 {
+  color: rgb(127, 85, 57);
+}
+
+.form label {
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+
+/* Select box */
+.menu {
+  border: 1px solid rgb(127, 85, 57);
+  color: rgb(127, 85, 57);
+  background-color: rgb(230, 204, 178);
+}
+
+/* Blue focus outline remove */
+.menu:focus {
+  border-color: rgb(127, 85, 57);
+  box-shadow: none;
+  outline: none;
+}
+
+/* Dropdown options */
+.menu option {
+  background-color: rgb(230, 204, 178);
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.name input {
+  border: 1px solid rgb(127, 85, 57);
+  background-color: rgb(230, 204, 178);
+}
+.name input::placeholder {
+  color: rgb(127, 85, 57);
+}
+.name label {
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.name input:focus {
+  border-color: rgb(127, 85, 57);
+  box-shadow: none;
+  outline: none;
+}
+.quantity label {
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.quantity input:focus {
+  border-color: rgb(127, 85, 57);
+  background-color: rgb(230, 204, 178);
+  color: rgb(127, 85, 57);
+  box-shadow: none;
+  outline: none;
+}
+.order:hover {
+  background-color: rgb(230, 204, 178);
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.order:active {
+  background-color: rgb(230, 204, 178);
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.highlightsItem {
+  background-color: rgb(230, 204, 178);
+  border: 2px solid rgb(127, 85, 57);
+}
+.highlights h2 {
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+.highlights p {
+  font-size: 16px;
+}
+.highlightsItem h5 {
+  color: rgb(127, 85, 57);
+  font-size: 18px;
+  font-weight: 600;
+}
+.menu-container button {
+  background-color: rgb(230, 204, 178);
+  border: 2px solid rgb(127, 85, 57);
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+#menuModal .modal-dialog {
+  max-width: 70%;
+}
+#menuModal .card {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+#menuModal .modal-header h1 {
+  color: rgb(127, 85, 57);
+  font-weight: 700;
+}
+#menuModal .card-body h5 {
+  color: rgb(127, 85, 57);
+  font-size: 18px;
+  font-weight: 600;
+}
+#menuModal .card-body p {
+  font-weight: 500;
+}
+#menuModal .card img {
+  height: 400px;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+.ftback {
+  background-color: rgb(230, 204, 178);
+}
+.footer img {
+  text-align: right;
+  height: auto;
+  width: 200px;
+}
+.footer i {
+  height: 50px;
+  padding: 5px;
+  color: rgb(127, 85, 57);
+}
+.fa-brands,
+.fab {
+  font-weight: 400;
+  font-size: 30px;
+}
+footer .links {
+  border-left: 1px solid rgb(127, 85, 57);
+  text-align: center;
+}
+.links {
+  margin: 25px;
+  text-align: center;
+}
+.links h3 {
+  font-weight: 600;
+  color: rgb(127, 85, 57);
+  font-size: auto;
+}
+.links a {
+  color: rgb(127, 85, 57);
+  text-decoration: none;
+}
+footer .ftmenu {
+  border-left: 1px solid rgb(127, 85, 57);
+  text-align: center;
+}
+.ftmenu {
+  margin: 25px;
+  text-align: center;
+}
+.ftmenu h3 {
+  font-weight: 600;
+  color: rgb(127, 85, 57);
+  font-size: auto;
+}
+.ftcontact {
+  border-left: 1px solid rgb(127, 85, 57);
+}
+.ftcontact h3 {
+  color: rgb(127, 85, 57);
+}
+.ftcontact {
+  margin: 25px;
+  text-align: center;
+}
+.ftcontact i {
+  padding: 5px;
+  color: rgb(127, 85, 57);
+}
+footer .col-12 {
+  color: rgb(127, 85, 57);
+  font-weight: 600;
+}
